@@ -35,6 +35,9 @@ def _require_settings() -> None:
 async def _request(method: str, path: str, **kwargs) -> dict:
     _require_settings()
     async with httpx.AsyncClient(auth=(USER, PWD), timeout=30.0) as client:
+        """Ouvre une connexion HTTP vers ServiceNow, 
+        authentifiée avec ton user/password, 
+        avec un délai max de 30 secondes."""
         try:
             response = await client.request(method, f"{INSTANCE_URL}{path}", **kwargs)
             response.raise_for_status()
@@ -54,6 +57,7 @@ async def _request(method: str, path: str, **kwargs) -> dict:
         return response.json()
 
 
+"""Ce décorateur dit à FastMCP : "expose cette fonction comme un outil que Claude peut appeler". """
 @mcp.tool()
 async def query_table(
     table: str,
@@ -72,6 +76,16 @@ async def query_table(
     - offset : décalage pour la pagination
     - display_value : "true" (valeurs affichées), "false" (valeurs brutes/sys_id) ou "all" (les deux)
     """
+
+    """
+    Les paramètres que Claude (ou toi via l'Inspector) doit fournir 
+    Ils ont tous une valeur par défaut sauf table, donc seul table est obligatoire.
+    """
+
+    """on rejette une valeur invalide pour display_value
+    et on force limit/offset à rester dans des bornes raisonnables 
+    (pas de nombre négatif pas plus de 1000)."""
+    
     if display_value not in VALID_DISPLAY_VALUES:
         raise ValueError(f"display_value doit être l'un de {sorted(VALID_DISPLAY_VALUES)}")
     limit = max(1, min(limit, MAX_LIMIT))
