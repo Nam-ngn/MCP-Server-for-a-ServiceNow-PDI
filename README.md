@@ -41,10 +41,8 @@ Le navigateur s'ouvre automatiquement sur l'interface de l'Inspector. Cliquez su
   <p align="left">
      <img src="img/image4.png" alt="image 4" width="700"/>
   </p>
- ![image 4](img/image4.png)
 
-
-
+ 
 Avant de relancer cette commande (par exemple après une modification de `server.py`), arrêter d'abord l'instance précédente avec `Ctrl+C` dans son terminal — sinon la nouvelle instance ne peut pas démarrer et le navigateur continue d'afficher l'ancien code.
 
 
@@ -58,6 +56,8 @@ Avant de relancer cette commande (par exemple après une modification de `server
 
   <p align="left">
      <img src="img/image3.png" alt="image 3" width="700"/>
+  </p>
+  <p>
      <img src="img/image2.png" alt="image 2" width="700"/>
   </p>
 
