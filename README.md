@@ -54,8 +54,8 @@ Avant de relancer cette commande (par exemple après une modification de `server
    Exemple : `table = incident`, `fields = {"short_description": "Test depuis MCP", "urgency": "2"}`
 
   <p align="left">
-     <img src="img/image3.png" alt="image 3" width="400"/>
-     <img src="img/image2.png" alt="image 2" width="400"/>
+     <img src="img/image3.png" alt="image 3" width="600"/>
+     <img src="img/image2.png" alt="image 2" width="600"/>
   </p>
 
 - `update_record` : modifie un enregistrement (`table`, `fields`, et `sys_id` OU `query`)
