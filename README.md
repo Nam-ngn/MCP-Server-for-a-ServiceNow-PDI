@@ -36,7 +36,7 @@ source venv/bin/activate
 npx @modelcontextprotocol/inspector python3 server.py
 ```
 
-Le navigateur s'ouvre automatiquement sur l'interface de l'Inspector. Cliquez sur **Connect**.
+Le navigateur s'ouvre automatiquement sur l'interface de l'Inspector. Cliquez sur **Connect**. (Assurez-vous que la ServiceNow PDI est active)
 
   <p align="left">
      <img src="img/image4.png" alt="image 4" width="700"/>
