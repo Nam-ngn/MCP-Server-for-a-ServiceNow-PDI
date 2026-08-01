@@ -40,8 +40,6 @@ Le navigateur s'ouvre automatiquement sur l'interface de l'Inspector. Cliquez su
 
  ![image 4](img/image4.png)
 
-Allez dans l'onglet **Tools**, choisir `query_table`, remplir `table = incident` et `limit = 5`, puis **Run Tool**.
-
 
 
 Avant de relancer cette commande (par exemple après une modification de `server.py`), arrêter d'abord l'instance précédente avec `Ctrl+C` dans son terminal — sinon la nouvelle instance ne peut pas démarrer et le navigateur continue d'afficher l'ancien code.
@@ -54,6 +52,10 @@ Avant de relancer cette commande (par exemple après une modification de `server
 
 - `create_record` : crée un enregistrement (`table`, `fields`)
   Exemple : `table = incident`, `fields = {"short_description": "Test depuis MCP", "urgency": "2"}`
+
+   ![image 3](img/image3.png)
+  
+  ![image 2](img/image2.png)
 
 - `update_record` : modifie un enregistrement (`table`, `fields`, et `sys_id` OU `query`)
   Exemple avec sys_id : `table = incident`, `sys_id = <sys_id de l'incident>`, `fields = {"urgency": "3"}`
