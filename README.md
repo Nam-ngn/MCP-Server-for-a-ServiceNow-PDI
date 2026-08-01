@@ -53,7 +53,7 @@ Avant de relancer cette commande (par exemple après une modification de `server
   Exemple : `table = incident`, `query = active=true^priority=1`, `limit = 5`
 
   <p align="left">
-     <img src="img/image7.jpeg" alt="image 7" width="700"/>
+     <img src="img/image8.jpeg" alt="image 8" width="700"/>
   </p>
 
   Voici le résultat attendu :
