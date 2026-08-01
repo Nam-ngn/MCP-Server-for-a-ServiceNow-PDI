@@ -52,6 +52,16 @@ Avant de relancer cette commande (par exemple après une modification de `server
 
   Exemple : `table = incident`, `query = active=true^priority=1`, `limit = 5`
 
+  <p align="left">
+     <img src="img/image6.png" alt="image 6" width="700"/>
+  </p>
+
+  Voici le résultat attendu :
+  
+  <p>
+     <img src="img/image7.png" alt="image 7" width="700"/>
+  </p>
+
 - `create_record` : crée un enregistrement (`table`, `fields`)
 
   Exemple : `table = incident`, `fields = {"short_description": "Test depuis MCP", "urgency": "2"}`
