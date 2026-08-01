@@ -36,7 +36,13 @@ source venv/bin/activate
 npx @modelcontextprotocol/inspector python3 server.py
 ```
 
-Le navigateur s'ouvre automatiquement sur l'interface de l'Inspector. Cliquez sur **Connect**, allez dans l'onglet **Tools**, choisir `query_table`, remplir `table = incident` et `limit = 5`, puis **Run Tool**.
+Le navigateur s'ouvre automatiquement sur l'interface de l'Inspector. Cliquez sur **Connect**.
+
+ ![image 1](img/image1.png)
+
+Allez dans l'onglet **Tools**, choisir `query_table`, remplir `table = incident` et `limit = 5`, puis **Run Tool**.
+
+
 
 Avant de relancer cette commande (par exemple après une modification de `server.py`), arrêter d'abord l'instance précédente avec `Ctrl+C` dans son terminal — sinon la nouvelle instance ne peut pas démarrer et le navigateur continue d'afficher l'ancien code.
 
