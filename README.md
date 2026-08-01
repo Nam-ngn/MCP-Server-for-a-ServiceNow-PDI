@@ -43,7 +43,7 @@ Le navigateur s'ouvre automatiquement sur l'interface de l'Inspector. Cliquez su
   </p>
 
  
-Avant de relancer cette commande (par exemple après une modification de `server.py`), arrêter d'abord l'instance précédente avec `Ctrl+C` dans son terminal — sinon la nouvelle instance ne peut pas démarrer et le navigateur continue d'afficher l'ancien code.
+Avant de relancer cette commande (par exemple après une modification de `server.py`), arrêtez d'abord l'instance précédente avec `Ctrl+C` dans son terminal — sinon la nouvelle instance ne peut pas démarrer et le navigateur continue d'afficher l'ancien code.
 
 
 ## Tools disponibles
@@ -58,7 +58,7 @@ Avant de relancer cette commande (par exemple après une modification de `server
      <img src="img/image3.png" alt="image 3" width="700"/>
   </p>
 
-  Voici le résultat attendu :
+  Voici le résultat attendu dans l'instance ServiceNow :
   
   <p>
      <img src="img/image2.png" alt="image 2" width="700"/>
@@ -72,7 +72,7 @@ Avant de relancer cette commande (par exemple après une modification de `server
      <img src="img/image1.png" alt="image 1" width="700"/>
   </p>
 
-  Voici le résultat attendu :
+  Voici le résultat attendu dans l'instance ServiceNow :
   
   <p>
      <img src="img/image5.png" alt="image 5" width="700"/>
