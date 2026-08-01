@@ -38,7 +38,7 @@ npx @modelcontextprotocol/inspector python3 server.py
 
 Le navigateur s'ouvre automatiquement sur l'interface de l'Inspector. Cliquez sur **Connect**.
 
- ![image 1](img/image1.png)
+ ![image 4](img/image4.png)
 
 Allez dans l'onglet **Tools**, choisir `query_table`, remplir `table = incident` et `limit = 5`, puis **Run Tool**.
 
