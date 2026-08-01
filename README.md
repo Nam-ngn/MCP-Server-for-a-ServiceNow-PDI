@@ -39,7 +39,7 @@ npx @modelcontextprotocol/inspector python3 server.py
 Le navigateur s'ouvre automatiquement sur l'interface de l'Inspector. Cliquez sur **Connect**.
 
   <p align="left">
-     <img src="img/image4.png" alt="image 4" width="800"/>
+     <img src="img/image4.png" alt="image 4" width="700"/>
   </p>
  ![image 4](img/image4.png)
 
@@ -57,8 +57,8 @@ Avant de relancer cette commande (par exemple après une modification de `server
    Exemple : `table = incident`, `fields = {"short_description": "Test depuis MCP", "urgency": "2"}`
 
   <p align="left">
-     <img src="img/image3.png" alt="image 3" width="600"/>
-     <img src="img/image2.png" alt="image 2" width="600"/>
+     <img src="img/image3.png" alt="image 3" width="700"/>
+     <img src="img/image2.png" alt="image 2" width="700"/>
   </p>
 
 - `update_record` : modifie un enregistrement (`table`, `fields`, et `sys_id` OU `query`)
