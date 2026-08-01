@@ -38,6 +38,9 @@ npx @modelcontextprotocol/inspector python3 server.py
 
 Le navigateur s'ouvre automatiquement sur l'interface de l'Inspector. Cliquez sur **Connect**.
 
+  <p align="left">
+     <img src="img/image4.png" alt="image 4" width="800"/>
+  </p>
  ![image 4](img/image4.png)
 
 
