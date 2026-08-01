@@ -49,10 +49,12 @@ Avant de relancer cette commande (par exemple après une modification de `server
 ## Tools disponibles
 
 - `query_table` : lit des enregistrements (`table`, `query`, `fields`, `limit`, `offset`, `display_value`)
+
   Exemple : `table = incident`, `query = active=true^priority=1`, `limit = 5`
 
 - `create_record` : crée un enregistrement (`table`, `fields`)
-   Exemple : `table = incident`, `fields = {"short_description": "Test depuis MCP", "urgency": "2"}`
+
+  Exemple : `table = incident`, `fields = {"short_description": "Test depuis MCP", "urgency": "2"}`
 
   <p align="left">
      <img src="img/image3.png" alt="image 3" width="700"/>
@@ -65,7 +67,9 @@ Avant de relancer cette commande (par exemple après une modification de `server
   </p>
 
 - `update_record` : modifie un enregistrement (`table`, `fields`, et `sys_id` OU `query`)
+
   Exemple avec sys_id : `table = incident`, `sys_id = <sys_id de l'incident>`, `fields = {"urgency": "3"}`
+
   Exemple avec query : `table = incident`, `query = number=INC0010002`, `fields = {"urgency": "1"}`
 
   <p align="left">
