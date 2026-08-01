@@ -57,6 +57,9 @@ Avant de relancer cette commande (par exemple après une modification de `server
   <p align="left">
      <img src="img/image3.png" alt="image 3" width="700"/>
   </p>
+
+  Voici le résultat attendu :
+  
   <p>
      <img src="img/image2.png" alt="image 2" width="700"/>
   </p>
@@ -65,11 +68,15 @@ Avant de relancer cette commande (par exemple après une modification de `server
   Exemple avec sys_id : `table = incident`, `sys_id = <sys_id de l'incident>`, `fields = {"urgency": "3"}`
   Exemple avec query : `table = incident`, `query = number=INC0010002`, `fields = {"urgency": "1"}`
 
-  ![image 1](img/image1.png)
+  <p align="left">
+     <img src="img/image1.png" alt="image 1" width="700"/>
+  </p>
 
   Voici le résultat attendu :
   
-  ![image 5](img/image5.png)
+  <p>
+     <img src="img/image5.png" alt="image 5" width="700"/>
+  </p>
 
   Pas besoin de connaître le `sys_id` : `query` permet de retrouver l'enregistrement (ex: par son numéro affiché). La requête doit désigner un seul enregistrement, sinon le tool renvoie une erreur.
 
