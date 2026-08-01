@@ -51,15 +51,22 @@ Avant de relancer cette commande (par exemple après une modification de `server
   Exemple : `table = incident`, `query = active=true^priority=1`, `limit = 5`
 
 - `create_record` : crée un enregistrement (`table`, `fields`)
-  Exemple : `table = incident`, `fields = {"short_description": "Test depuis MCP", "urgency": "2"}`
+   Exemple : `table = incident`, `fields = {"short_description": "Test depuis MCP", "urgency": "2"}`
 
    ![image 3](img/image3.png)
-  
+
+
+  Voici le résultat attendu :
   ![image 2](img/image2.png)
 
 - `update_record` : modifie un enregistrement (`table`, `fields`, et `sys_id` OU `query`)
   Exemple avec sys_id : `table = incident`, `sys_id = <sys_id de l'incident>`, `fields = {"urgency": "3"}`
   Exemple avec query : `table = incident`, `query = number=INC0010002`, `fields = {"urgency": "1"}`
+
+  ![image 1](img/image3.png)
+
+  Voici le résultat attendu :
+  ![image 5](img/image5.png)
 
   Pas besoin de connaître le `sys_id` : `query` permet de retrouver l'enregistrement (ex: par son numéro affiché). La requête doit désigner un seul enregistrement, sinon le tool renvoie une erreur.
 
