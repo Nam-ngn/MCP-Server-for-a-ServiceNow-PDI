@@ -80,7 +80,8 @@ Avant de relancer cette commande (par exemple après une modification de `server
 
   Pas besoin de connaître le `sys_id` : `query` permet de retrouver l'enregistrement (ex: par son numéro affiché). La requête doit désigner un seul enregistrement, sinon le tool renvoie une erreur.
 
-`fields` doit être un objet JSON, pas du texte. Dans l'Inspector, basculer l'input de ce paramètre en mode JSON (bouton/toggle `{ }` à côté du champ) avant de coller la valeur.
+
+Le champ `fields` doit être un objet JSON, pas du texte. Dans l'Inspector, basculer l'input de ce paramètre en mode JSON (bouton/toggle `{ }` à côté du champ) avant de coller la valeur.
 
 
 ## En cas de problème
