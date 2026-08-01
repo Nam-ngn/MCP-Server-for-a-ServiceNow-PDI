@@ -95,11 +95,11 @@ Avant de relancer cette commande (par exemple après une modification de `server
   Pas besoin de connaître le `sys_id` : `query` permet de retrouver l'enregistrement (ex: par son numéro affiché). La requête doit désigner un seul enregistrement, sinon le tool renvoie une erreur.
 
 
-Le champ `fields` doit être un objet JSON, pas du texte. Dans l'Inspector, basculer l'input de ce paramètre en mode JSON (bouton/toggle `{ }` à côté du champ) avant de coller la valeur.
+Le champ `fields` doit être un objet JSON, pas du texte. Dans l'Inspector, basculez l'input de ce paramètre en mode JSON (bouton/toggle `{ }` à côté du champ) avant de coller la valeur.
 
 
 ## En cas de problème
 
-- **`MCP error -32602: Invalid request parameters`** : un paramètre ne correspond pas au type attendu. Le cas le plus fréquent est `fields` envoyé comme du texte brut au lieu d'un objet JSON — vérifier que l'input est bien en mode JSON dans l'Inspector.
+- **`MCP error -32602: Invalid request parameters`** : un paramètre ne correspond pas au type attendu. Le cas le plus fréquent est `fields` envoyé comme du texte brut au lieu d'un objet JSON — vérifiez que l'input est bien en mode JSON dans l'Inspector.
 
-- **`Proxy Server PORT IS IN USE at port 6277`** : une instance de l'Inspector tourne déjà. Arrêter le processus précédent (`Ctrl+C` dans son terminal) avant de relancer la commande.
+- **`Proxy Server PORT IS IN USE at port 6277`** : une instance de l'Inspector tourne déjà. Arrêtez le processus précédent (`Ctrl+C` dans son terminal) avant de relancer la commande.
